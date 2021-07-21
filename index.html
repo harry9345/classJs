@@ -13,37 +13,39 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="row m-5">
-      <div class="col-sm-6 m-5">
-        <form class="g-1" id="submit">
-          <label class="form-label" for="brand">Brand :</label>
-          <input class="form-control" type="text" id="brand" />
-          <label class="form-label" for="color">Color : </label>
-          <input class="form-control" type="text" id="color" />
-          <label class="form-label" for="year">Year :</label>
-          <input class="form-control" type="text" id="year" />
-          <button class="btn btn-outline-primary mt-3" type="submit">
-            submit
-          </button>
-        </form>
-        <div id="main"></div>
-      </div>
-      <div class="col-sm-6 m-5">
-        <form class="g-1" id="counting">
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Leave a comment here"
-              id="counter"
-              style="height: 200px"
-            ></textarea>
-            <label for="counter">Comments</label>
-          </div>
-          <button class="btn btn-outline-info mt-3" type="submit">
-            submit
-          </button>
-        </form>
-        <div id="result"></div>
+    <div class="container">
+      <div class="m-5">
+        <div class="col-sm-5">
+          <form class="g-1" id="submit">
+            <label class="form-label" for="brand">Brand :</label>
+            <input class="form-control" type="text" id="brand" />
+            <label class="form-label" for="color">Color : </label>
+            <input class="form-control" type="text" id="color" />
+            <label class="form-label" for="year">Year :</label>
+            <input class="form-control" type="text" id="year" />
+            <button class="btn btn-outline-primary mt-3" type="submit">
+              submit
+            </button>
+          </form>
+          <div id="main"></div>
+        </div>
+        <div class="col-md-6 mt-5">
+          <form class="g-1" id="counting">
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="counter"
+                style="height: 200px"
+              ></textarea>
+              <label for="counter">Comments</label>
+            </div>
+            <button class="btn btn-outline-info mt-3" type="submit">
+              submit
+            </button>
+          </form>
+          <div id="result"></div>
+        </div>
       </div>
     </div>
     <script
